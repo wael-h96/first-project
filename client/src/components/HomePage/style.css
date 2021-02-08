@@ -1,0 +1,54 @@
+.chart-wrapper {
+    padding: 2%;
+    width: 100%;
+    display: inline-block;
+    margin-top: 10px;
+}
+  
+.main.chart-wrapper {
+    height: 450px;
+    width: 96%;
+}
+  
+.sub.chart-wrapper {
+    height: 300px;
+    width:30%;
+}
+  
+@media (min-width: 700px) {
+    .sub.chart-wrapper {
+      width: 80%;
+    }
+}
+  
+.chart-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.box-shadow{
+    padding: 10px;
+    position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.5), 0 0 50px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.5), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    
+}
+
+.title-message{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+    font-style: italic;
+    
+}
+
+.admin-addv-button{
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.followed-vacations-container{
+    background-color: lightblue;
+}
